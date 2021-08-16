@@ -13,9 +13,7 @@ Open access to 30 mins temporal rainfall data at [Google Earth Engine](https://e
 
 Half hourly IMERG at Earth Engine Data Catalogue - [https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06](https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06)
 
-Landslide event in Magelang, Central Java - Indonesia during 2018. Compiled by Department of Environmental Geography, Faculty of Geography - Universitas Gadjah Mada. Available in CSV format with column structure: ID, Lon, Lat, Day, DD, MM, YYYY, TimeWIB
-
-[Landslide](./data/idn_nhr_ls_3308_magelang_2018_p_example.csv)
+Landslide event in Magelang, Central Java - Indonesia during 2018. Compiled by Department of Environmental Geography, Faculty of Geography - Universitas Gadjah Mada. Available in CSV format with column structure: ID, Lon, Lat, Day, DD, MM, YYYY, TimeWIB. Link: [Landslide](./data/idn_nhr_ls_3308_magelang_2018_p_example.csv)
 
 
 ## Script
@@ -88,14 +86,14 @@ Export.table.toDrive({
 
 GEE [link](https://code.earthengine.google.com/f55d6b0417351e0582f7558d1de5715b)
 
-![GEE](./img/landslide_rainfall.png)
+![GEE](./img/landslide_rainfall_gee.png)
 
 GEE script for 1 point simulation available via this [link](https://code.earthengine.google.com/47dede746d68d7d1a603d49540aa4805). You need to fill coordinate (line 12) and set the landslide date (line 16)
 
 
 ## Output
 
-30-minutes of rainfall that occurred 10-days before landslide. Generated using GEE [Landslide Rainfall](./data/landslide_rainfall.csv)
+30-minutes of rainfall that occurred 10-days before landslide. Generated using GEE, link: [Landslide Rainfall](./data/landslide_rainfall.csv)
 
 
 ## About
@@ -105,7 +103,7 @@ This is part of research and development of threshold for extreme rainfall that 
 
 ## Contact
 
-For further information about Extreme Rainfall triggering a Landslide research and development, please contact:
+For further information about **Extreme rainfall triggering a Landslide** research and development, please contact:
 
 - Benny Istanto and Ridwan Mulyadi
 	
