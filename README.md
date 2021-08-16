@@ -21,6 +21,19 @@ Landslide event in Magelang, Central Java - Indonesia during 2018. Compiled by D
 The script below describe how to extract 30-minute rainfall from NASA [GPM-IMERG](https://gpm.nasa.gov/GPM), based on points location and convert it into CSV file using Google Earth Engine code editor.
 
 ``` js
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Script to extract 30-minute rainfall from NASA GPM IMERG, based on points location and convert it into CSV file. 
+//
+// Application: Extract 30-minute rainfall in the last 10-days before landslide occurs in certain point. The data
+// will use to develop a model or rainfall threshold  for extreme rainfall that could trigger a landslide.
+//
+// Benny Istanto and Ridwan Mulyadi
+// Vulnerability Analysis and Mapping (VAM) unit, WFP Indonesia
+// 
+// Guruh Samodra
+// Department of Environmental Geography, Faculty of Geography, Universitas Gadjah Mada. 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // List of coordinates from Landslide events
 var LS = ee.FeatureCollection("users/bennyistanto/datasets/table/idn_nhr_ls_3308_magelang_2018_p_example");
 // LS = LS.filter(ee.Filter.lte('ID', 2)); // lite version
@@ -84,7 +97,7 @@ Export.table.toDrive({
 });
 ```
 
-GEE [link](https://code.earthengine.google.com/f55d6b0417351e0582f7558d1de5715b)
+GEE [link](https://code.earthengine.google.com/b7ccc8291d23770301e96a22bd1be2c8)
 
 ![GEE](./img/landslide_rainfall_gee.png)
 

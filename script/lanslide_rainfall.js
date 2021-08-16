@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Script to extract 30-minute rainfall from NASA GPM IMERG, based on point location and convert it into CSV file. 
+// Script to extract 30-minute rainfall from NASA GPM IMERG, based on points location and convert it into CSV file. 
 //
 // Application: Extract 30-minute rainfall in the last 10-days before landslide occurs in certain point. The data
 // will use to develop a model or rainfall threshold  for extreme rainfall that could trigger a landslide.
